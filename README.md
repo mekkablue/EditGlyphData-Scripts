@@ -1,6 +1,12 @@
 # EditGlyphData-Scripts
 
-These are mekkablue scripts for [EditGlyphData.app](https://glyphsapp.com/tools/editglyphdata).
+These are mekkablue scripts for [EditGlyphData.app](https://glyphsapp.com/tools/editglyphdata). For installation instructions, see further below.
+
+## Scripts
+
+* **Recount Unicodes from First Encoded Glyph:** Will reset Unicode values for each selected glyph, starting with the value of the first encoded glyph. Will add 1 for each subsequent glyph.
+	* Option: `App.defaults["com.mekkablue.RecountUnicodes.skipUnencoded"] = False`: set to `False` if entries without a Unicode value should receive a Unicode value; set to `True` if unencoded entries should remain without a Unicode value
+
 
 ## Installation
 
@@ -21,13 +27,6 @@ cd ~/Library/Application\ Support/EditGlyphData/Scripts/mekkablue/; git fetch; g
 ```
 
 Then, in EditGlyphData.app, hold down the Opt key, and pick *Script > Reload Scripts* (Cmd-Opt-Shift-Y), or restart the app.
-
-
-## Scripts
-
-* **Recount Unicodes from First Encoded Glyph:** Will reset Unicode values for each selected glyph, starting with the value of the first encoded glyph. Will add 1 for each subsequent glyph.
-	* Option: `App.defaults["com.mekkablue.RecountUnicodes.skipUnencoded"] = False`: set to `False` if entries without a Unicode value should receive a Unicode value; set to `True` if unencoded entries should remain without a Unicode value
-
 
 ## License
 
