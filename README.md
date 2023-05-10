@@ -17,7 +17,7 @@ Then, in EditGlyphData.app, hold down the Opt key, and pick *Script > Reload Scr
 Copy and paste this into Terminal.app, and press the Return key:
 
 ```
-cd ~/Library/Application\ Support/EditGlyphData/Scripts/mekkablue/; git checkout
+cd ~/Library/Application\ Support/EditGlyphData/Scripts/mekkablue/; git fetch; git pull
 ```
 
 Then, in EditGlyphData.app, hold down the Opt key, and pick *Script > Reload Scripts* (Cmd-Opt-Shift-Y), or restart the app.
