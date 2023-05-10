@@ -13,6 +13,11 @@ docURL = doc.fileURL()
 if docURL:
 	print(f"📄 {docURL.path()}")
 
+if skipUnencoded:
+	print(f"💁🏼‍♂️ Will skip unencoded entries. To change, run this in Macro Window:\nApp.defaults['com.mekkablue.RecountUnicodes.skipUnencoded'] = False\n")
+else:
+	print(f"💁🏼‍♂️ Will add Unicode values to unencoded entries. To change, run this in Macro Window:\nApp.defaults['com.mekkablue.RecountUnicodes.skipUnencoded'] = True\n")
+
 print(f"\n👩🏽‍🍳 Recounting Unicode values in {len(doc.selectedInfos)} selected entries...")
 unicodeValue = None
 for info in doc.selectedInfos:

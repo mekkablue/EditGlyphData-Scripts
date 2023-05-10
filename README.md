@@ -10,7 +10,18 @@ Copy and paste this into Terminal.app, and press the Return key:
 git clone https://github.com/mekkablue/EditGlyphData-Scripts ~/Library/Application\ Support/EditGlyphData/Scripts/mekkablue/
 ```
 
-Then, hold down the Opt key, and pick *Script > Reload Scripts* (Cmd-Opt-Shift-Y), or restart the app.
+Then, in EditGlyphData.app, hold down the Opt key, and pick *Script > Reload Scripts* (Cmd-Opt-Shift-Y), or restart the app.
+
+## Updating to the Latest Version
+
+Copy and paste this into Terminal.app, and press the Return key:
+
+```
+cd ~/Library/Application\ Support/EditGlyphData/Scripts/mekkablue/; git checkout
+```
+
+Then, in EditGlyphData.app, hold down the Opt key, and pick *Script > Reload Scripts* (Cmd-Opt-Shift-Y), or restart the app.
+
 
 ## Scripts
 
