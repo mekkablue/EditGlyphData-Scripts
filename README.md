@@ -1,4 +1,4 @@
-# EditGlyphData-Scripts
+# EditGlyphData-Scripts by mekkablue
 
 These are mekkablue scripts for [EditGlyphData.app](https://glyphsapp.com/tools/editglyphdata). For installation instructions, see further below.
 
@@ -6,6 +6,10 @@ These are mekkablue scripts for [EditGlyphData.app](https://glyphsapp.com/tools/
 
 * **Recount Unicodes from First Encoded Glyph:** Will reset Unicode values for each selected glyph, starting with the value of the first encoded glyph. Will add 1 for each subsequent glyph.
 	* Option: `App.defaults["com.mekkablue.RecountUnicodes.skipUnencoded"] = False`: set to `False` if entries without a Unicode value should receive a Unicode value; set to `True` if unencoded entries should remain without a Unicode value
+
+* **Regenerate Production Name for All Glyphs:** Resets all production names to the structure: uniXXXX or uXXXXX, or to whatever GlyphData stipulates, e.g., ‘uni1E91’ for zcircumflex.
+
+* **Set All Sort Names to ‘scriptName.unicodePoint’:** Sets all sort names to the structure: [NAME OF SCRIPT].[UTF16 UNICODE CODEPOINT], e.g., Adieresis would have ‘latin.00C4’ as new sort name.
 
 
 ## Installation
